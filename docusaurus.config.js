@@ -11,7 +11,7 @@ const config = {
   // favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://zenzenlin.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -20,6 +20,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "zenzenlin", // Usually your GitHub org/user name.
   projectName: "blog", // Usually your repo name.
+  deploymentBranch: "gh-pages",
   plugins: [
     async function myPlugin(context, options) {
       return {
