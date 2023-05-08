@@ -11,7 +11,7 @@ const config = {
   // favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://zenzenlin.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -20,6 +20,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "zenzenlin", // Usually your GitHub org/user name.
   projectName: "blog", // Usually your repo name.
+  deploymentBranch: "gh-pages",
   plugins: [
     async function myPlugin(context, options) {
       return {
@@ -42,8 +43,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "zh-Hant",
-    locales: ["zh-Hant"],
+    defaultLocale: "en", // 預設語系
+    locales: ["en"], // 語系配置
   },
 
   presets: [
