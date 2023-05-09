@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7826],{975:a=>{a.exports=JSON.parse('{"label":"\u751f\u6d3b","permalink":"/myblog/docs/tags/\u751f\u6d3b","allTagsPath":"/myblog/docs/tags","count":1,"items":[{"id":"JavaScript/JavaScript","title":"JavaScript","description":"","permalink":"/myblog/docs/JavaScript/First Post"}]}')}}]);
