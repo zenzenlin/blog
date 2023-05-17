@@ -2,7 +2,7 @@
 sidebar_position: 5
 slug: First Post
 authors: [zenzen]
-tags: [生活]
+tags: [程式]
 ---
 
 # JavaScript 底層概述
