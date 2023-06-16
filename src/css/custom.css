@@ -1432,6 +1432,12 @@ html {
 .breadcrumbs {
   margin-bottom: 0;
   padding-left: 0;
+  display: flex;
+}
+
+.breadcrumbs__item {
+  display: inline-flex;
+  align-items: center;
 }
 
 .breadcrumbs__item:not(:last-child):after {
